@@ -33,7 +33,7 @@ services:
     network_mode: "host"
     privileged: true
     volumes:
-      - "./files/mount:/RackHD/files"
+      - "./files/mount:/RackHD/files":rw
 
   # test:
   #   build: "../test"
